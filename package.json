@@ -1,0 +1,12 @@
+{
+  "name": "russbot",
+  "version": "1.0.0",
+  "description": "Russ's Test Bot",
+  "main": "index.js",
+  "author": "Mahrus Sayid",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1"
+  }
+}

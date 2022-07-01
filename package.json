@@ -5,9 +5,20 @@
   "main": "index.js",
   "author": "Mahrus Sayid",
   "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "tsc && node app.js",
+    "build": "node commands.js"
+  },
   "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
     "canvas": "^2.9.3",
+    "discord-api-types": "^0.36.0",
     "discord.js": "^13.8.1",
     "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0"
   }
 }

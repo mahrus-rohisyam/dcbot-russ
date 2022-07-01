@@ -5,9 +5,9 @@ module.exports = {
     .setName("ping")
     .setDescription("Replies with Pong!"),
   async execute(interaction) {
-    let ping = Date.now() - interaction.createdTimestamp
+    let ping = Date.now() - interaction.createdTimestamp * -1
     return interaction.reply(
-      `Pong!  **\`${Math.round(ping * -1)}ms\`**`
+      `Pong!  **\`${ping.toString().slice(0, 2)}ms\`**`
     );
   },
 };
